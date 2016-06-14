@@ -83,6 +83,7 @@ function! s:h(group, style)
 endfunction
 
 call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
+" Set the cursor colour in the terminal
 call s:h("Cursor",        {"bg": s:blue, "fg": s:norm })
 call s:h("Comment",       {"bg": s:obvious, "fg": s:bg_subtle, "gui": "italic"})
 
